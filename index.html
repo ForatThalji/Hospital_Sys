@@ -15,7 +15,7 @@
     <a href="#">Services</a>
     <a href="#">Contact</a>
 </nav>
-<body id ="body">
+<body >
 
     <div class="container">
         <h1>Hospital System</h1>
@@ -39,6 +39,9 @@
 
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="phone" >
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
 
             <label for="chronic_diseases">Chronic Diseases</label>
             <select id="chronic_diseases" name="chronic_diseases[]"  >
@@ -52,9 +55,11 @@
 
             <button type="submit" id="submit_btn">Submit</button>
         </form>
-         <div id="cardContainer"></div>
+        <p id="message"></p>
     </div>
-   
+<div id ="body">
+   <div id="cardContainer"></div>
+</div>
      <footer>
         <p>&copy; 2024 Hospital System. All rights reserved.</p>
     </footer> 
